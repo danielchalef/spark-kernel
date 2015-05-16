@@ -1,0 +1,13 @@
+{
+    "display_name": "Spark 1.2.1 (Scala 2.10.4)",
+    "language": "scala",
+    "env": { "JVM_OPT":"-XX:PermSize=256m -Dlog4j.logLevel=INFO",
+		"CLASSPATH": "/root/dl4j"
+    },
+    "argv": [
+        "/app/bin/sparkkernel",
+        "--profile",
+        "{connection_file}"
+     ],
+     "codemirror_mode": "scala"
+}
